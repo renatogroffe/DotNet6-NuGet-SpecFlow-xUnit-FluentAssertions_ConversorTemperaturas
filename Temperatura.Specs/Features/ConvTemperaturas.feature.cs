@@ -40,7 +40,7 @@ namespace Temperatura.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Features", "Conversão de temperaturas em Fahrenheit", null, ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Features", "Conversao de temperaturas em Fahrenheit", null, ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -81,7 +81,7 @@ namespace Temperatura.Specs.Features
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoTemperatura01")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de temperaturas em Fahrenheit")]
         [Xunit.TraitAttribute("Description", "SimulacaoTemperatura01")]
         public void SimulacaoTemperatura01()
         {
@@ -99,23 +99,23 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 4
- testRunner.Given("que o valor da temperatura é de 32 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da temperatura e de 32 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 5
- testRunner.When("eu solicitar a conversão desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 6
- testRunner.Then("o resultado da conversão para Celsius será de 0 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado da conversao para Celsius sera de 0 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
 #line 7
- testRunner.And("o resultado da conversão para Kelvin será de 273,15 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+ testRunner.And("o resultado da conversao para Kelvin sera de 273,15 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoTemperatura02")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de temperaturas em Fahrenheit")]
         [Xunit.TraitAttribute("Description", "SimulacaoTemperatura02")]
         public void SimulacaoTemperatura02()
         {
@@ -133,23 +133,23 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 10
- testRunner.Given("que o valor da temperatura é de 86 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da temperatura e de 86 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 11
- testRunner.When("eu solicitar a conversão desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 12
- testRunner.Then("o resultado da conversão para Celsius será de 30 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado da conversao para Celsius sera de 30 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
 #line 13
- testRunner.And("o resultado da conversão para Kelvin será de 303,15 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+ testRunner.And("o resultado da conversao para Kelvin sera de 303,15 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoTemperatura03")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de temperaturas em Fahrenheit")]
         [Xunit.TraitAttribute("Description", "SimulacaoTemperatura03")]
         public void SimulacaoTemperatura03()
         {
@@ -167,23 +167,23 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 16
- testRunner.Given("que o valor da temperatura é de 47 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da temperatura e de 47 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 17
- testRunner.When("eu solicitar a conversão desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 18
- testRunner.Then("o resultado da conversão para Celsius será de 8,33 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado da conversao para Celsius sera de 8,33 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
 #line 19
- testRunner.And("o resultado da conversão para Kelvin será de 281,48 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+ testRunner.And("o resultado da conversao para Kelvin sera de 281,48 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoTemperatura04")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de temperaturas em Fahrenheit")]
         [Xunit.TraitAttribute("Description", "SimulacaoTemperatura04")]
         public void SimulacaoTemperatura04()
         {
@@ -201,23 +201,23 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 22
- testRunner.Given("que o valor da temperatura é de 90,5 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da temperatura e de 90,5 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 23
- testRunner.When("eu solicitar a conversão desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 24
- testRunner.Then("o resultado da conversão para Celsius será de 32,5 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado da conversao para Celsius sera de 32,5 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
 #line 25
- testRunner.And("o resultado da conversão para Kelvin será de 305,65 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+ testRunner.And("o resultado da conversao para Kelvin sera de 305,65 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoTemperatura05")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de temperaturas em Fahrenheit")]
         [Xunit.TraitAttribute("Description", "SimulacaoTemperatura05")]
         public void SimulacaoTemperatura05()
         {
@@ -235,23 +235,23 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 28
- testRunner.Given("que o valor da temperatura é de 120,18 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da temperatura e de 120,18 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 29
- testRunner.When("eu solicitar a conversão desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 30
- testRunner.Then("o resultado da conversão para Celsius será de 48,99 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado da conversao para Celsius sera de 48,99 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
 #line 31
- testRunner.And("o resultado da conversão para Kelvin será de 322,14 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+ testRunner.And("o resultado da conversao para Kelvin sera de 322,14 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="SimulacaoTemperatura06")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de temperaturas em Fahrenheit")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de temperaturas em Fahrenheit")]
         [Xunit.TraitAttribute("Description", "SimulacaoTemperatura06")]
         public void SimulacaoTemperatura06()
         {
@@ -269,16 +269,16 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 34
- testRunner.Given("que o valor da temperatura é de 212 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da temperatura e de 212 graus Fahrenheit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 35
- testRunner.When("eu solicitar a conversão desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta teperatura", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 36
- testRunner.Then("o resultado da conversão para Celsius será de 100 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado da conversao para Celsius sera de 100 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
 #line 37
- testRunner.And("o resultado da conversão para Kelvin será de 373,15 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
+ testRunner.And("o resultado da conversao para Kelvin sera de 373,15 graus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
 #line hidden
             }
             this.ScenarioCleanup();
